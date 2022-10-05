@@ -1,0 +1,40 @@
+{
+  "name": "mypackage",
+  "version": "1.0.0",
+  "description": "\"myGulpSetting\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "core-js": "^3.25.5",
+    "css-loader": "^6.7.1",
+    "esbuild-plugin-inline-image": "0.0.8",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-esbuild": "^0.10.5",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass-glob-use-forward": "^0.1.3",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.55.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "gulp-eslint-new": "^1.6.0",
+    "gulp-plugin-prettier": "^2.0.1",
+    "prettier": "^2.7.1"
+  }
+}

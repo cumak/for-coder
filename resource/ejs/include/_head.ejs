@@ -1,0 +1,22 @@
+<%
+  const ogtype=dir==='./' ? 'website' :'article';
+  const title = pagetitle?pagetitle+" | ●●●●●●●サイト名●●●●●":"●●●●●●●サイト名●●●●●";
+%>
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# <%= ogtype %>: http://ogp.me/ns/<%= ogtype %>#">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title><%= title %></title>
+  <meta name="description" content="●●●●●●●●●">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+  <meta name="format-detection" content="telephone=no">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="<%= title %>">
+  <meta property="og:description" content="●●●●">
+  <meta property="og:type" content="<%= ogtype %>">
+  <!-- <meta property="og:image" content="http://●●●●●●●●●.jp/img/common/ogimage.jpg"> -->
+  <meta name="twitter:card" content="summary" />
+  <link rel="apple-touch-icon" href="<%= dir %>img/common/apple-touch-icon.png">
+  <link rel="stylesheet" href="<%= dir %>css/style.css">
+  <script src="<%= dir %>js/app.js" type="module"></script>
+</head>
